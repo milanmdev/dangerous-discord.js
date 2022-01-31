@@ -1,0 +1,32 @@
+{
+  "name": "dangerous-discord.js",
+  "version": "1.0.0",
+  "description": "A Node.js API wrapper for Drivet's Dangerous Discord User Database",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milanmdev/dangerous-discord.js.git"
+  },
+  "keywords": [
+    "drivet",
+    "dangerous-discord",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Milan M <milan@milanm.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milanmdev/dangerous-discord.js/issues"
+  },
+  "homepage": "https://github.com/milanmdev/dangerous-discord.js#readme",
+  "dependencies": {
+    "axios": "0.25.0",
+    "ow": "^0.28.1"
+  },
+  "devDependencies": {
+    "dotenv": "^15.0.0"
+  }
+}
