@@ -6,7 +6,7 @@ const client = new Client({
 });
 
 (async () => {
-  let checkUser = await client.check("681621708301533194");
+  let checkUser = await client.getUser("681621708301533194");
   console.log(checkUser);
   /*let reportUser = await client.report("681621708301533194", "Testing");
   console.log(reportUser);*/

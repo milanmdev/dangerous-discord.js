@@ -37,9 +37,9 @@ const client = new Client({
   token: "your token here", // You only need to specify a token if you plan to use the "Client#report" method
 });
 
-// Use the functions below to check and/or report users:
+// Use the functions below to fetch and/or report users:
 (async () => {
-  await client.check("userID").then((data) => console.log(data));
-  await client.report("userID", "reason").then((data) => console.log(data));
+  await client.getUser("userID").then((data) => console.log(data)); // { reports: 5, users_reported: 0 }
+  await client.report("userID", "reason").then((data) => console.log(data)); // [ { author: '423203831971708958', reported: '681621708301533194', type: 'Other', reason: 'Testing', created_at: '1643669555539', modified_at: null } ]
 })();
 ```

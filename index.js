@@ -23,7 +23,7 @@ class Client {
     });
   }
 
-  async check(userID) {
+  async getUser(userID) {
     try {
       ow(userID, ow.string);
 
