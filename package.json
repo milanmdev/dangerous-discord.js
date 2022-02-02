@@ -27,6 +27,6 @@
     "ow": "^0.28.1"
   },
   "devDependencies": {
-    "dotenv": "15.0.0"
+    "dotenv": "16.0.0"
   }
 }
