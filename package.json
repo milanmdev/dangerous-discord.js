@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/milanmdev/dangerous-discord.js#readme",
   "dependencies": {
-    "axios": "0.26.0",
+    "axios": "0.26.1",
     "ow": "^0.28.1"
   },
   "devDependencies": {
