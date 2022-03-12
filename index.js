@@ -14,7 +14,7 @@ class Client {
 
     var default_http = {
       User_Agent: `dangerous-discord.js/v${packageDotJson.version}`,
-      apiURL: "discord.drivet.xyz/api/",
+      apiURL: "dangerousdiscord.com/api/",
     };
     this.http = options.http ? options.http : default_http;
     this.httpInstance = axios.create({
